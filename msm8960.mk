@@ -106,6 +106,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8960
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    libnetcmdiface
+
 # HDMI
 PRODUCT_PACKAGES += \
     hdmid
