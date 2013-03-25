@@ -154,6 +154,10 @@ PRODUCT_COPY_FILES += \
     device/htc/msm8960-common/configs/media_profiles.xml:system/etc/media_profiles.xml \
     device/htc/msm8960-common/configs/media_codecs.xml:system/etc/media_codecs.xml
 
+# Goo
+PRODUCT_COPY_FILES += \
+    device/htc/msm8960-common/prebuilt/goomanager.apk:system/app/goomanager.apk
+
 # Common build properties
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
