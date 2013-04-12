@@ -2,9 +2,6 @@
 
 import init.qcom.usb.rc
 
-on early-init
-    mkdir /mnt/usbdisk 0755 system system
-
 on init
     mkdir /devlog 0700 root root
 
